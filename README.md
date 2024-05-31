@@ -1,4 +1,4 @@
-# aaPanel_v6
+# aaPanel_v7
 
 One step for installation :
 ```
@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/adilem/aaPanel/main/install_7.0_en.sh && 
 ```
 
 
-# aaPanel_v7
+# aaPanel_v6
 
 One step for installation :
 ```
