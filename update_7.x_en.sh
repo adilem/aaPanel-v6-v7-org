@@ -780,7 +780,8 @@ if [ -f "$only_update_pyenv312" ]; then
     exit 0;
 fi
 
-version=$(curl -Ss --connect-timeout 12 -m 2 https://brandnew.aapanel.com/api/panel/getLatestOfficialVersion)
+#version=$(curl -Ss --connect-timeout 12 -m 2 https://brandnew.aapanel.com/api/panel/getLatestOfficialVersion)
+version=$(curl -Ss --connect-timeout 12 -m 2 https://raw.githubusercontent.com/adilem/aaPanel-v6-v7-org/main/getLatestOfficialVersion)
 
 check_version_num=$( echo "$version"|grep -Eo '^[0-9]+' )
 if [ "$check_version_num" = '' ];then
