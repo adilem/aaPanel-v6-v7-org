@@ -6,6 +6,13 @@ URL=https://raw.githubusercontent.com/adilem/aaPanel/main/install_7.0_en.sh && i
 
 ```
 
+# aaPanel_v7
+
+One step for installation :
+```
+curl -k https://raw.githubusercontent.com/adilem/aaPanel-v6-v7-org/main/update_7.x_en.sh | bash
+```
+
 
 # aaPanel_v6
 
