@@ -959,7 +959,8 @@ fi
 # fi
 
 
-wget --no-check-certificate -t 5 -T 20 -O /tmp/panel.zip $download_Url/install/update/LinuxPanel_EN-${version}.zip
+#wget --no-check-certificate -t 5 -T 20 -O /tmp/panel.zip $download_Url/install/update/LinuxPanel_EN-${version}.zip
+wget --no-check-certificate -t 5 -T 20 -O /tmp/panel.zip https://github.com/adilem/aaPanel-v6-v7-org/releases/download/v7/LinuxPanel_EN-${version}.zip
 
 dsize=$(du -b /tmp/panel.zip|awk '{print $1}')
 if [ $dsize -lt 10240 ];then
