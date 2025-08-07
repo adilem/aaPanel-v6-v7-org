@@ -26,7 +26,7 @@ URL=https://raw.githubusercontent.com/adilem/aaPanel/main/install_6.0_en.sh && i
 
 One step for installation :
 ```
-curl -sSL https://raw.githubusercontent.com/adilem/aaPanel-v6-v7-org/refs/heads/main/update_v7.x_en.sh | bash
+curl -k https://raw.githubusercontent.com/adilem/aaPanel-v6-v7-org/refs/heads/main/update_7-0-22.x_en.sh | bash
 
 ```
 
