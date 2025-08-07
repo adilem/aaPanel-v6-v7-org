@@ -22,7 +22,7 @@ URL=https://raw.githubusercontent.com/adilem/aaPanel/main/install_6.0_en.sh && i
 
 ```
 
-# aaPanel_v6
+# aaPanel_v7.22 update
 
 One step for installation :
 ```
